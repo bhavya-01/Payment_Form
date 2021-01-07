@@ -1,0 +1,41 @@
+*{
+        
+    box-sizing: border-box;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    margin: 20px 25px;
+    padding: 8px;
+    
+}
+.form{
+    background-color: #f2f2f2;
+    padding: 15px 20px 15px 20px;
+    border-radius : 10px;
+
+}
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+input[type="date"]
+select,
+textarea{
+    width: 100%;
+    padding: 20px;
+    border-radius : 10px;
+
+}
+input[type="submit"]{
+    background-color: rgba(247, 213, 20, 0.835);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    width: 100%;
+
+}
+input[type="submit"]:hover{
+    background-color: rgb(145, 145, 238);
+}
